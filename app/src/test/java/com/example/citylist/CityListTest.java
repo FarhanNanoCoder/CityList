@@ -47,7 +47,7 @@ public class CityListTest {
         cityList.add(city2);
 
        cityList.delete(city1);
-       assertFalse(cityList.getCities().contains(city1));
+       assertFalse(cityList.getCities(false).contains(city1));
     }
 
     /**

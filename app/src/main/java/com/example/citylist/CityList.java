@@ -33,7 +33,7 @@ public class CityList {
     }
 
     /**
-     * This returns a sorted list of cities
+     * This returns a sorted list of cities by name default and on passing true as parameter it sorts by province
      * @return
      *      Return the sorted list of cities
      */

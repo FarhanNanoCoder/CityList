@@ -5,12 +5,20 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class CityListTest {
+    /**
+     * this creates a mock citylist with one data comes from mockCity()
+     * @return
+     */
     private CityList mockCityList() {
         CityList cityList = new CityList();
         cityList.add(mockCity());
         return cityList;
     }
 
+    /**
+     * this returns a mock city object
+     * @return
+     */
     private City mockCity() {
         return new City("Edmonton", "AB");
     }

@@ -104,14 +104,15 @@ public class CityListTest {
     @Test
     public void testGetCities() {
         CityList cityList = new CityList();
-        City city1 = new City("Regina", "CD");
+        City city1 = new City("Charlottetown", "Prince Edward Island");
         cityList.add(city1);
         assertEquals(0, city1.compareTo(cityList.getCities(false).get(0)));
 
-        City city = new City("Charlottetown", "Prince Edward Island");
-        cityList.add(city);
+        City city2 = new City("Regina", "CD");
 
-        assertEquals(0, city.compareTo(cityList.getCities(false).get(0)));
-        assertEquals(0, city1.compareTo(cityList.getCities(false).get(1)));
+        cityList.add(city2);
+
+        assertEquals(0, city1.compareTo(cityList.getCities(false).get(0)));
+        assertEquals(0, city2.compareTo(cityList.getCities(false).get(1)));
     }
 }

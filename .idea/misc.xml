@@ -3,6 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/3.1_labs/Soft-engineering/assignments/assignment-2/CityList/app/src/main/res/layout/activity_city_details.xml" value="0.18342391304347827" />
+        <entry key="..\:/3.1_labs/Soft-engineering/assignments/assignment-2/CityList/app/src/main/res/layout/activity_main.xml" value="0.18840579710144928" />
+        <entry key="..\:/3.1_labs/Soft-engineering/assignments/assignment-2/CityList/app/src/main/res/layout/city_details.xml" value="0.33" />
+        <entry key="..\:/3.1_labs/Soft-engineering/assignments/assignment-2/CityList/app/src/main/res/layout/content.xml" value="0.18342391304347827" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="app/src/main/res/layout/content.xml" value="0.1" />
       </map>
